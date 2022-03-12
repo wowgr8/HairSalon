@@ -4,12 +4,14 @@
 
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.Day)
-  @Html.TextBoxFor(model => model.Day)
-
   @Html.LabelFor(model => model.Name)
   @Html.TextBoxFor(model => model.Name)
-
+  <br>
+  <br>
+  @Html.LabelFor(model => model.Day)
+  @Html.TextBoxFor(model => model.Day)
+  <br>
+  <br>
   @Html.LabelFor(model => model.Stylist)
   @Html.DropDownList("StylistId")
 

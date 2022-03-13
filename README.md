@@ -10,11 +10,11 @@
 
 ## Technologies Used
 
-- _C#
-- _.NET
-- _ASP.NET MVC
-- _SQL
-- _MySQL Workbench
+- C#
+- .NET
+- ASP.NET MVC
+- SQL
+- MySQL Workbench
 
 ## Project Title: Eau Claire's Hair Salon
 

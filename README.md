@@ -24,7 +24,7 @@ Create a ASP.NET MVC web application using a SQL database that stores a list of 
 
 ### User Interface
 
-The web application will provide a form, which asks the user for the stylist's name, then asks the user for to enter a client and day. Once the client is entered, the user can choose a stylist for the client from a dropdown menu. The user can also add another stylist, enter a new client, or view a list of current clients for each stylist.
+The web application will provide a form, which asks the user for the stylist's name, then asks the user to enter a client and the day they'd like to schedule. Once the client is entered, the user can choose a stylist for the client from a dropdown menu. The user can also add new stylists, enter a new client for an existing stylist, or view a list of current clients for each stylist.
 
 ## Project Setup/Installation Instructions
 

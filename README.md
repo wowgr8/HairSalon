@@ -28,11 +28,9 @@ The web application will provide a form, which asks the user for the stylist's n
 
 ## Project Setup/Installation Instructions
 
-1. Download .NET 5.0 SDK for : <a href="https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.102-windows-x64-installer" target="_blank">Windows</a>
+1. Download .NET 5.0 SDK for : <a href="https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.102-windows-x64-installer" target="_blank">Windows</a> or <a href="https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.100-macos-x64-installer" target="_blank">Mac</a>
 
-1. Download .NET 5.0 SDK for Mac: <a href="https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.100-macos-x64-installer" target="_blank">Mac</a>
-
-2. Clone the appliction to your computer by entering: `git clone https://github.com/wowgr8/HairSalon` in the terminal
+2. Clone the appliction to your computer by entering: ```git clone https://github.com/wowgr8/HairSalon``` in the terminal
 3. Open the repository in the terminal 
 4. Import cesar_lopez.sql database into MySql by following these steps 
 5. Launch MySql Workbench 
@@ -46,9 +44,8 @@ The web application will provide a form, which asks the user for the stylist's n
 
 ## Setup for appsettings.json
 1. In the terminal, cd into the file HairSalon
-2. Create a new file by entering `touch appsettings.json`  in the terminal
+2. Create a new file by entering `touch appsettings.json`  in the root directory
 3. Enter the following code below. Be sure to replace [Password] with the password for MySql workbench that you have set up. Do the same for [userid], the uid is the user id you've set up in MySql workbench.
-4. 
 ```
 {
   "ConnectionStrings": {
@@ -56,9 +53,8 @@ The web application will provide a form, which asks the user for the stylist's n
   }
 }
 ```  
-
-5. After that is complete, run the application by cd'ing into HairSalon and enter `dotnet run` in your terminal 
-6. when it finishes you should see `Now listenin on: http://localhost:5000 ` CTRL click the link to view the application in your browser.
+4. After that is complete, run the application by cd'ing into HairSalon and enter ```dotnet run``` in your terminal 
+5. When it finishes you should see ```Now listenin on: http://localhost:5000 ``` CTRL click the link to view the application in your browser.
 
 ## Additional Setup/Installation Note for Windows Users
 

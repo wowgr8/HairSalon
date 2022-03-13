@@ -6,7 +6,7 @@
 
 #### _Eau Claire's Hair Salon is an ASP.NET Core MVC Web application using a SQL database, wherein the user can add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. The stylists are unique, so each client can only see (belong to) a single stylist._
 
-![]()
+![](https://github.com/wowgr8/gifsV2/blob/main/eu-clair-hair-salon/hair-salon-sql-table.jpg)
 
 ## Technologies Used
 
@@ -33,11 +33,11 @@ The web application will provide a form, which asks the user for the stylist's n
 1. Download .NET 5.0 SDK for Mac: <a href="https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.100-macos-x64-installer" target="_blank">Mac</a>
 
 2. Clone the appliction to your computer by entering: `git clone https://github.com/wowgr8/HairSalon` in the terminal
-3. Open the repository in editor 
+3. Open the repository in the terminal 
 4. Import cesar_lopez.sql database into MySql by following these steps 
 5. Launch MySql Workbench 
 6. Select MySql intance in the middle under MySqlConnections
-7. Select Navigator>Administration then select DataImport/Restore 
+7. Select Navigator, then Administration, followed by select DataImport/Restore 
 8. Select Import from Self- contained File 
 9. Click the 3 dots at the end of Self-Contained file and in the pop up choose the cesar_lopez.sql file
 10. In the Default Schema to be Imported to section select new and a pop up will appear, name the schema cesar_lopez 
